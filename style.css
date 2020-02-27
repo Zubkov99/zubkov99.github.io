@@ -215,3 +215,9 @@ h2 {
         margin-left: 1.5vw;
     }
 }
+
+@media (max-width: 1550px) {
+    .content__box--img img {
+        width: 27vw;
+        }
+}
