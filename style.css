@@ -216,4 +216,9 @@ h2 {
     }
 }
 
+@media (min-width: 1400px) and (max-width: 1500px) {
+    .content__box--img img {
+        width: 27vw;
+        }
+}
 
