@@ -8,6 +8,24 @@ html {
     font-family: Helvetica;
 }
 
+@font-face {
+    font-family: Helvetica;
+    src:
+    local(Helvetica) 
+    url(Helvetica.otf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src:
+    local(Helvetica) 
+    url(Helvetica.otf);
+    font-style: normal;
+    font-weight: normal;  
+}
+
 .header {
     height: 80px;
     width: 100%;
@@ -35,7 +53,7 @@ html {
     height: 100%;
     text-decoration: none;
     margin-top: 32px;
-    margin-right: 14vw;
+    margin-right: 16vw;
 
 }
 
@@ -55,7 +73,7 @@ html {
 }
 
 .header__icon {
-    margin-right: 2vw;
+    margin-right: 3vw;
 }
 
 .wrapper {
@@ -69,7 +87,6 @@ html {
 }
 
 .content p {
-    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -81,8 +98,8 @@ html {
 }
 
 .content__header {
+    width: 839px;
     margin-top: 20px;
-    font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -95,7 +112,6 @@ html {
 }
 
 h2 {
-    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -105,6 +121,11 @@ h2 {
 .content__text {
     margin-left: 4vw;
     margin-top: 10px;
+    width: 24vw;
+}
+
+.content__subtitle {
+    width: 374px;
 }
 
 .content__text--section {
@@ -135,7 +156,6 @@ h2 {
 }
 
 .content__box p {
-    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -145,6 +165,7 @@ h2 {
 .content__box--subtitle {
     margin-left: 1vw;
     margin-top: 22px;
+    width: 383px;
 }
 
 .box__subtitle--paragraph  {
@@ -192,6 +213,7 @@ h2 {
 
 .footer__name {
     margin-left: 4vw;
+    width: 190px;
 }
 
 @media (max-width: 1400px) {
@@ -214,4 +236,16 @@ h2 {
     .content__box--subtitle {
         margin-left: 1.5vw;
     }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+    .content__box--img img {
+        width: 27vw;
+        }
+}
+
+@media (min-width: 1600px) {
+    .content__box--img img {
+        width: 464px;
+        }
 }
