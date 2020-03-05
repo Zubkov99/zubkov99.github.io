@@ -36,14 +36,8 @@ html {
 }
 
 .header__logo {
-    font-family: GetVoIP Grotesque;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 140%;
-    color: #78B3FF;
     position: relative;
-    top: 20px;
+    top: 32px;
     left: 3vw;
     right: 1vw;
 }
@@ -188,7 +182,7 @@ h2 {
 }
 
 .content__box--img img {
-    margin-left: 7vw;
+    margin-left: 4vw;
     margin-top: 22px;
     width: 29vw;
 }
